@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.github.cptdebugger.VK-API-PluginAdapter</groupId>
+  <artifactId>vk-api.bukkit</artifactId>
+  <version>0.4.2</version>
+  <name>bivashy/VK-API-PluginAdapter</name>
+  <description>VK-API Spigot-Bungee, with VK events using Bukkit-Bungee Event System</description>
+  <url>https://github.com/bivashy/VK-API-PluginAdapter</url>
+  <inceptionYear>2021</inceptionYear>
+  <licenses>
+    <license>
+      <name>Eclipse Public License 2.0</name>
+      <url>https://api.github.com/licenses/epl-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bivashy</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/bivashy/VK-API-PluginAdapter.git</connection>
+    <developerConnection>scm:git://github.com/bivashy/VK-API-PluginAdapter.git</developerConnection>
+    <url>git://github.com/bivashy/VK-API-PluginAdapter.git</url>
+  </scm>
+  <properties>
+    <spigot-api.version>1.18.1-R0.1-SNAPSHOT</spigot-api.version>
+    <project.file.name>VK-API-Bukkit</project.file.name>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.18.1-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>commons-lang</artifactId>
+          <groupId>commons-lang</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>guava</artifactId>
+          <groupId>com.google.guava</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>bungeecord-chat</artifactId>
+          <groupId>net.md-5</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>snakeyaml</artifactId>
+          <groupId>org.yaml</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>spigot-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+  </repositories>
+</project>
