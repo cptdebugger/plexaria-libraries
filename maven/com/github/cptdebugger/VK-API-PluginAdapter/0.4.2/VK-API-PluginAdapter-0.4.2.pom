@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.cptdebugger</groupId>
+  <artifactId>VK-API-PluginAdapter</artifactId>
+  <version>0.4.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.cptdebugger.VK-API-PluginAdapter</groupId>
+      <artifactId>vk-api.bukkit</artifactId>
+      <version>0.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.cptdebugger.VK-API-PluginAdapter</groupId>
+      <artifactId>vk-api.bungee</artifactId>
+      <version>0.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.cptdebugger.VK-API-PluginAdapter</groupId>
+      <artifactId>vk-api.core</artifactId>
+      <version>0.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.cptdebugger.VK-API-PluginAdapter</groupId>
+      <artifactId>vk-api.velocity</artifactId>
+      <version>0.4.2</version>
+    </dependency>
+  </dependencies>
+</project>

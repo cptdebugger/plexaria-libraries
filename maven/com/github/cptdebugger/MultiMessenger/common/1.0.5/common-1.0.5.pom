@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.github.cptdebugger.MultiMessenger</groupId>
+    <artifactId>MultiMessenger</artifactId>
+    <version>1.0.5</version>
+  </parent>
+  <groupId>com.github.cptdebugger.MultiMessenger</groupId>
+  <artifactId>common</artifactId>
+  <version>1.0.5</version>
+  <name>bivashy/MultiMessenger</name>
+  <description>MultiMessenger provides you interface for messenger`s bot api</description>
+  <url>https://github.com/bivashy/MultiMessenger</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bivashy</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/bivashy/MultiMessenger.git</connection>
+    <developerConnection>scm:git://github.com/bivashy/MultiMessenger.git</developerConnection>
+    <url>git://github.com/bivashy/MultiMessenger.git</url>
+  </scm>
+</project>

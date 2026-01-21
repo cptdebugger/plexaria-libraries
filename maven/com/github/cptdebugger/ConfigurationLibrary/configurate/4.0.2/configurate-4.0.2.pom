@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.github.cptdebugger.ConfigurationLibrary</groupId>
+    <artifactId>main</artifactId>
+    <version>4.0.2</version>
+  </parent>
+  <groupId>com.github.cptdebugger.ConfigurationLibrary</groupId>
+  <artifactId>configurate</artifactId>
+  <version>4.0.2</version>
+  <name>bivashy/ConfigurationLibrary</name>
+  <description>Configuration Library using annotations</description>
+  <url>https://github.com/bivashy/ConfigurationLibrary</url>
+  <inceptionYear>2022</inceptionYear>
+  <developers>
+    <developer>
+      <id>bivashy</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/bivashy/ConfigurationLibrary.git</connection>
+    <developerConnection>scm:git://github.com/bivashy/ConfigurationLibrary.git</developerConnection>
+    <url>git://github.com/bivashy/ConfigurationLibrary.git</url>
+  </scm>
+  <properties>
+    <configurate.version>4.1.2</configurate.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.bivashy.ConfigurationLibrary</groupId>
+      <artifactId>core</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.spongepowered</groupId>
+      <artifactId>configurate-core</artifactId>
+      <version>${configurate.version}</version>
+    </dependency>
+  </dependencies>
+</project>
